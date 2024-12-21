@@ -1,0 +1,64 @@
+@media (min-width: 0px) and (max-width: 480px) {
+    .nav {
+        height: auto;
+    }
+
+    .navbar 
+    {
+        width: 100%;
+        height: auto;
+    }
+
+    .navbar h1
+     {
+        font-size: 24px;
+        margin-top: 0;
+        text-align: center;
+    }
+
+    .menu 
+    {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin-top: -5%;
+    }
+
+    .menu ul 
+    {
+        flex-direction: column;
+    }
+
+    .list ul li
+     {
+        font-size: 18px;
+        margin-right: 0px;
+        /* margin-bottom: 5px; */
+    }
+    .photos
+    {
+        width: 100%; 
+        
+    }
+    .photoscontainer 
+    {
+
+        flex-direction:row;
+        margin-top: 35%;
+        width: 100%;
+        display: block;
+       
+    }
+    .box1 
+    {
+        width: 100%;
+       
+    }
+    
+    .box1 img 
+    {
+        height: 300px;
+        padding: 1%;
+    }
+
+}
